@@ -1,0 +1,239 @@
+:root {
+    --header-color: rgb(13, 17, 23);
+    --border-color: rgb(33, 38, 45);
+    --border-color-light: rgb(48, 54, 61);
+    --button-green: rgb(35, 134, 54);
+    --button-green-border: rgb(75, 174, 94);
+}
+
+html body.logged-in.env-production.page-responsive.full-width div.logged-in.env-production.page-responsive.full-width div.application-main div.d-md-flex.color-bg-inset div.flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 div.d-md-flex.gutter-md-spacious div.col-md-12.col-lg-8.mt-3.border-bottom div.mx-auto.d-flex.flex-auto.flex-column div.d-flex.flex-items-between.footer.container-lg.my-5.px-0 div.d-flex.flex-justify-start.flex-row.flex-auto ul.col-4.col-sm-4.col-lg-4.col-xl-3.list-style-none.f6.color-fg-muted.pl-lg-4 {
+    background: none;
+    margin: .5%;
+    border: none;
+}
+
+div.d-flex > .color-fg-muted, Header, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine,  div.container-xl.px-3.px-md-4.px-lg-5 {
+    /* https://stackoverflow.com/a/69574606/14363702 */
+    border: .5px solid transparent;
+    background: 
+        linear-gradient(to right, #0d1117 30%, #000 100%),
+        linear-gradient(to right, var(--border-color-light) 30%, #000 100%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+
+    border-radius: 5px;
+    padding: .5rem;
+    width: 100%;
+}
+
+/* FIX THIS */
+/*
+div.repository-container-header, .js-repo-nav.js-sidenav-container-pjax.js-responsive-underlinenav.overflow-hidden.UnderlineNav.px-3.px-md-4.px-lg-5 {
+    background: transparent !important;
+}
+
+html body.logged-in.env-production.page-responsive div.logged-in.env-production.page-responsive div.application-main div main#js-repo-pjax-container div#repository-container-header.pt-3.hide-full-screen {
+    background: transparent !important;
+}
+*/
+html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.position-relative.js-header-wrapper header.Header.js-details-container.Details.px-3.px-md-4.px-lg-5.flex-wrap.flex-md-nowrap, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.mt-4.position-sticky.top-0.d-none.d-md-block.color-bg-default.width-full.border-bottom.color-border-muted div.container-xl.px-3.px-md-4.px-lg-5, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.container-xl.px-3.px-md-4.px-lg-5 {
+    border: none !important; 
+}
+
+html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.mt-4.position-sticky.top-0.d-none.d-md-block.color-bg-default.width-full.border-bottom.color-border-muted {
+    background: transparent !important;
+}
+
+.avatar-group-item {
+    transform: scale(1.8);
+    margin: 5%;
+}
+
+html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.container-xl.px-3.px-md-4.px-lg-5 div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start div.Layout-sidebar div.h-card.mt-md-n5 div.js-profile-editable-replace div.d-flex.flex-column div.js-profile-editable-area.d-flex.flex-column.d-md-block div.flex-order-1.flex-md-order-none.mt-2.mt-md-0 div.mb-3 {
+    transform: scale(1.2);
+    text-align: center;
+}
+
+.octicon.octicon-repo.color-fg-muted.mr-2 {
+    background: none;
+    width: auto;
+}
+
+.color-fg-muted.text-right {
+    background: none !important;
+    border: none !important;
+}
+
+.css-truncate.css-truncate-overflow.color-fg-muted {
+    background: none;
+    border: none;
+}
+
+.mx-1.flex-self-stretch.color-fg-muted {
+    display: none;
+}
+
+.url.fn::after {
+    content: "/";
+}
+
+span.p-org {
+    font-size: medium !important;
+}
+
+li.vcard-detail.pt-1.hide-sm.hide-md, li.vcard-detail.pt-1 {
+    font-size: medium !important;
+}
+
+.p-name.vcard-fullname.d-block.overflow-hidden::before {
+    content: "AKA,";
+    display: block;
+    font-size: .5em;
+}
+
+html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.container-xl.px-3.px-md-4.px-lg-5 div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start div.Layout-main turbo-frame#user-profile-frame div.position-relative div.mt-4.position-relative div.d-flex div.col-12.col-lg-10 div.js-yearly-contributions div#user-activity-overview.position-relative div.Box.mb-5.p-3.activity-overview-box.border-top.border-xl-top-0 div.d-flex.flex-column.flex-lg-row div.col-12.col-lg-6.d-flex.flex-column.pr-lg-5 div.d-flex.mb-2 svg.octicon.octicon-repo.flex-shrink-0.color-fg-muted.mt-1.mr-2 {
+    background: none !important;
+    display: none !important;
+}
+
+.text-mono.text-small.mb-3 {
+    font-size: medium !important;
+}
+
+.repo {
+    font-size: medium !important;
+}
+
+.octicon.octicon-star {
+    fill: rgb(200, 200, 60) !important;
+}
+
+.octicon.octicon-package {
+    fill: rgb(150, 75, 0) !important;
+}
+
+.octicon.octicon-project, .octicon.octicon-table {
+    fill: rgb(44, 122, 25) !important;
+}
+
+.octicon.octicon-repo {
+    fill: rgb(255, 255, 255) !important;
+}
+
+.octicon.octicon-book {
+    fill: rgb(30, 97, 221) !important;
+}
+
+html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.container-xl.px-3.px-md-4.px-lg-5 div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start div.Layout-sidebar div.h-card.mt-md-n5 div.js-profile-editable-replace div.d-flex.flex-column div.js-profile-editable-area.d-flex.flex-column.d-md-block div.p-note.user-profile-bio.mb-3.js-user-profile-bio.f4 div {
+    text-align: left;
+}
+
+.d-md-flex .gutter-md-spacious {
+    background-color: black;
+}
+
+.UnderlineNav-item::after {
+    background: rgb(200, 200, 200) !important;
+}
+
+span.f6.color-fg-muted {
+    border: none;
+    background: none;
+}
+
+.color-fg-muted.tooltipped.tooltipped-ne.mr-2 {
+    background: none;
+    border: none;
+    width: auto;
+}
+
+.octicon.octicon-repo.color-fg-muted.mr-2.mt-2 {
+    display: none;
+}
+
+.f3.color-fg-muted.text-normal.lh-condensed, .f4.color-fg-muted.text-normal.lh-condensed.Truncate {
+    background: none;
+}
+
+.octicon.octicon-heart-fill.mr-2.color-fg-muted, html body.logged-in.env-production.page-responsive.f4 div.logged-in.env-production.page-responsive.f4 div.application-main main div.p-responsive.py-6.container-xl.d-flex.flex-column.flex-md-row.flex-wrap.flex-lg-nowrap div#sponsorable-dependencies.mx-auto.col-md-9.col-lg-7 div.mb-md-5.mr-3.mx-md-auto div.Box.mt-3 div.Box-row.overflow-hidden.flex-column div.d-flex.mb-3.f5.flex-items-center span.color-fg-muted, html body.logged-in.env-production.page-responsive.f4 div.logged-in.env-production.page-responsive.f4 div.application-main main div.color-bg-subtle div.container-lg.p-responsive.text-center.py-6 div.d-flex.flex-items-center.flex-column.col-md-6.mx-auto p.f4.color-fg-muted {
+    background: none;
+    border: none;
+    width: auto;
+}
+
+.btn-primary.btn, .Button--primary {
+    -webkit-animation: breathing 4s infinite normal;
+    animation: breathing 4s infinite normal;
+
+    border: .5px solid var(--button-green-border);
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-box-shadow: 0 0 5px var(--button-green);
+        -moz-box-shadow: 0 0 5px var(--button-green);
+        box-shadow: 0 0 5px var(--button-green);
+    }
+
+    15% {
+        -webkit-box-shadow: 0 0 15px var(--button-green);
+        -moz-box-shadow: 0 0 15px var(--button-green);
+        box-shadow: 0 0 15px var(--button-green);
+    }
+
+    35% {
+        -webkit-box-shadow: 0 0 10px var(--button-green);
+        -moz-box-shadow: 0 0 10px var(--button-green);
+        box-shadow: 0 0 10px var(--button-green);
+    }
+
+    60% {
+        -webkit-box-shadow: 0 0 18px var(--button-green);
+        -moz-box-shadow: 0 0 18px var(--button-green);
+        box-shadow: 0 0 18px var(--button-green);
+    }
+
+    75% {
+        -webkit-box-shadow: 0 0 25px var(--button-green);
+        -moz-box-shadow: 0 0 25px var(--button-green);
+        box-shadow: 0 0 25px var(--button-green);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 5px var(--button-green);
+        -moz-box-shadow: 0 0 5px var(--button-green);
+        box-shadow: 0 0 5px var(--button-green);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-box-shadow: 0 0 5px var(--button-green);
+        -moz-box-shadow: 0 0 5px var(--button-green);
+        box-shadow: 0 0 5px var(--button-green);
+    }
+
+    25% {
+        -webkit-box-shadow: 0 0 15px var(--button-green);
+        -moz-box-shadow: 0 0 15px var(--button-green);
+        box-shadow: 0 0 15px var(--button-green);
+    }
+
+    60% {
+        -webkit-box-shadow: 0 0 10px var(--button-green);
+        -moz-box-shadow: 0 0 10px var(--button-green);
+        box-shadow: 0 0 10px var(--button-green);
+    }
+
+    75% {
+        -webkit-box-shadow: 0 0 25px var(--button-green);
+        -moz-box-shadow: 0 0 25px var(--button-green);
+        box-shadow: 0 0 25px var(--button-green);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 5px var(--button-green);
+        -moz-box-shadow: 0 0 5px var(--button-green);
+        box-shadow: 0 0 5px var(--button-green);
+    }
+}

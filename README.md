@@ -1,6 +1,6 @@
 # BetterGitHub (WorseGitHub)
 
-ok, I was bored and decided to make an extension that custamizes GitHub's CSS and shit. jus drag the `src.crx` file into the thingy and install it. Or you can jus load it from `manifest.json`.
+ok, I was bored and decided to make an extension that customizes GitHub's CSS and shit. jus drag the `src.crx` file into the thingy and install it. Or you can jus load it from `manifest.json`.
 
 This is never coming to the chrome store, I dont feel like paying the $5 registration fee when you can install it for free.
 

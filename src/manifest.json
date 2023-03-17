@@ -1,13 +1,16 @@
 {
 
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "BetterGitHub",
   "version": "1.0",
 
   "description": "Changes the appearence of GitHub.",
 
   "icons": {
-    "48": "icons/logo-48.jpg"
+    "16": "icons/icon.jpg",
+    "32": "icons/icon.jpg",
+    "48": "icons/icon.jpg",
+    "128": "icons/icon.jpg"
   },
 
   "content_scripts": [

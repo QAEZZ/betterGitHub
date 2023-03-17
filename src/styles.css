@@ -6,13 +6,40 @@
     --button-green-border: rgb(75, 174, 94);
 }
 
+body::-webkit-scrollbar {
+    width: .7em !important;
+    background-color: transparent !important;
+  }
+   
+  body::-webkit-scrollbar-track {
+    background-color: black !important;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    border-radius: 50px !important;
+    background-color: rgba(50, 50, 50, .2) !important;
+  }
+
+#repository-container-header, body > div.logged-in.env-production.page-responsive {
+    border: none !important;
+}
+
+body > div.logged-in.env-production.page-responsive > div.position-relative.js-header-wrapper > header {
+    border: .5px solid transparent;
+    background: 
+        linear-gradient(to right, #0d1117 30%, #000 100%),
+        linear-gradient(to right, var(--border-color-light) 30%, #000 100%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+
 html body.logged-in.env-production.page-responsive.full-width div.logged-in.env-production.page-responsive.full-width div.application-main div.d-md-flex.color-bg-inset div.flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 div.d-md-flex.gutter-md-spacious div.col-md-12.col-lg-8.mt-3.border-bottom div.mx-auto.d-flex.flex-auto.flex-column div.d-flex.flex-items-between.footer.container-lg.my-5.px-0 div.d-flex.flex-justify-start.flex-row.flex-auto ul.col-4.col-sm-4.col-lg-4.col-xl-3.list-style-none.f6.color-fg-muted.pl-lg-4 {
     background: none;
     margin: .5%;
     border: none;
 }
 
-div.d-flex > .color-fg-muted, Header, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine,  div.container-xl.px-3.px-md-4.px-lg-5 {
+#repository-container-header, body > div.logged-in.env-production.page-responsive, div.d-flex > .color-fg-muted, Header, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine,  div.container-xl.px-3.px-md-4.px-lg-5 {
     /* https://stackoverflow.com/a/69574606/14363702 */
     border: .5px solid transparent;
     background: 
@@ -26,16 +53,19 @@ div.d-flex > .color-fg-muted, Header, html body.logged-in.env-production.page-re
     width: 100%;
 }
 
-/* FIX THIS */
-/*
-div.repository-container-header, .js-repo-nav.js-sidenav-container-pjax.js-responsive-underlinenav.overflow-hidden.UnderlineNav.px-3.px-md-4.px-lg-5 {
+.container-xl.px-3.px-md-4.px-lg-5 {
     background: transparent !important;
+} 
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > div > div > svg {
+    background: none !important;
+    border: none !important;
+    width: auto !important;
+    height: auto !important;
 }
 
-html body.logged-in.env-production.page-responsive div.logged-in.env-production.page-responsive div.application-main div main#js-repo-pjax-container div#repository-container-header.pt-3.hide-full-screen {
-    background: transparent !important;
-}
-*/
+
+
 html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.position-relative.js-header-wrapper header.Header.js-details-container.Details.px-3.px-md-4.px-lg-5.flex-wrap.flex-md-nowrap, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.mt-4.position-sticky.top-0.d-none.d-md-block.color-bg-default.width-full.border-bottom.color-border-muted div.container-xl.px-3.px-md-4.px-lg-5, html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.container-xl.px-3.px-md-4.px-lg-5 {
     border: none !important; 
 }
@@ -120,9 +150,86 @@ html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-
     fill: rgb(255, 255, 255) !important;
 }
 
+.octicon.octicon-repo-forked {
+    fill: rgb(255, 255, 255) !important;
+}
+
+.octicon.octicon-eye {
+    fill: rgb(153, 235, 255) !important;
+}
+
+.octicon.octicon-home.UnderlineNav-octicon {
+    fill: rgb(207, 167, 230) !important;
+}
+
+.octicon.octicon-location, .octicon.octicon-pin {
+    fill: rgb(255, 160, 160) !important;
+}
+
+.octicon.octicon-link {
+    fill: rgb(230, 230, 230) !important;
+}
+
+.octicon.octicon-pencil {
+    fill: rgb(253, 255, 136) !important;
+}
+
+.octicon.octicon-list-unordered {
+    fill: rgb(255, 255, 255) !important;
+}
+
+.octicon.octicon-file-directory-fill {
+    fill: rgb(255, 216, 113) !important;
+}
+
+.octicon.octicon-file {
+    fill: rgb(255, 255, 255) !important;
+}
+
+.octicon.octicon-law {
+    fill: rgb(205, 127, 50) !important;
+}
+
+.octicon.octicon-people {
+    fill: rgb(180, 180, 180) !important;
+}
+
+.octicon.octicon-person {
+    fill: rgb(230, 230, 230) !important;
+}
+
+.octicon.octicon-comment-discussion {
+    fill: rgb(88, 180, 255) !important;
+}
+
 .octicon.octicon-book {
     fill: rgb(30, 97, 221) !important;
 }
+
+.octicon.octicon-play {
+    fill: rgb(63, 185, 80) !important;
+}
+
+.octicon.octicon-git-pull-request {
+    fill: rgb(137, 87, 229) !important;
+}
+
+.octicon.octicon-shield {
+    fill: rgb(221, 218, 19) !important;
+}
+
+.octicon.octicon-issue-opened {
+    fill: rgb(63, 185, 80) !important;
+}
+
+.octicon.octicon-code {
+    fill: rgb(255, 255, 255) !important;
+}
+
+.octicon.octicon-graph {
+    fill: rgb(255, 100, 100) !important;
+}
+
 
 html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-in.env-production.page-responsive.page-profile.mine div.application-main main div.container-xl.px-3.px-md-4.px-lg-5 div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start div.Layout-sidebar div.h-card.mt-md-n5 div.js-profile-editable-replace div.d-flex.flex-column div.js-profile-editable-area.d-flex.flex-column.d-md-block div.p-note.user-profile-bio.mb-3.js-user-profile-bio.f4 div {
     text-align: left;

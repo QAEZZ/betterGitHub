@@ -26,4 +26,5 @@ Here are some images:
 <img src="https://cdn.discordapp.com/attachments/1017863329156452494/1086108574889029743/image.png" />
 <img src="https://cdn.discordapp.com/attachments/1017863329156452494/1086108702416846908/image.png" />
 <img src="https://cdn.discordapp.com/attachments/1017863329156452494/1086108964502114456/breathingEffect.gif" />
+<img src="https://cdn.discordapp.com/attachments/1017863329156452494/1086121824003305564/image.png" />
 </details>

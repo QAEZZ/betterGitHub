@@ -158,11 +158,11 @@ html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-
     fill: rgb(153, 235, 255) !important;
 }
 
-.octicon.octicon-home.UnderlineNav-octicon {
+.octicon.octicon-home.UnderlineNav-octicon, .octicon.octicon-codescan {
     fill: rgb(207, 167, 230) !important;
 }
 
-.octicon.octicon-location, .octicon.octicon-pin {
+.octicon.octicon-location, .octicon.octicon-pin, .octicon.octicon-mail {
     fill: rgb(255, 160, 160) !important;
 }
 
@@ -170,35 +170,76 @@ html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-
     fill: rgb(230, 230, 230) !important;
 }
 
-.octicon.octicon-pencil {
+.octicon.octicon-pencil, .octicon.octicon-id-badge {
     fill: rgb(253, 255, 136) !important;
+}
+
+.octicon.octicon-plus {
+    fill: var(--button-green) !important;
+}
+
+.octicon.octicon-arrow-switch
+{
+    fill: rgb(88, 166, 255) !important;
 }
 
 .octicon.octicon-list-unordered {
     fill: rgb(255, 255, 255) !important;
 }
 
-.octicon.octicon-file-directory-fill {
+.octicon.octicon-file-directory-fill, .octicon.octicon-key {
     fill: rgb(255, 216, 113) !important;
 }
 
-.octicon.octicon-file {
+.octicon.octicon-file, .octicon.octicon-organization {
     fill: rgb(255, 255, 255) !important;
 }
 
-.octicon.octicon-law {
+.octicon.octicon-check {
+    fill: rgb(70, 255, 70) !important;
+}
+
+.octicon.octicon-globe {
+    fill: rgb(88, 153, 255) !important; 
+}
+
+.octicon.octicon-dash {
+    fill: rgb(140, 140, 140) !important;
+}
+
+.octicon.octicon-bell {
+    fill: rgb(202, 205, 50) !important;
+}
+
+.octicon.octicon-law, .octicon.octicon-credit-card {
     fill: rgb(205, 127, 50) !important;
+}
+
+.octicon.octicon-report, .octicon.octicon-paintbrush, .octicon.octicon-repo-deleted {
+    fill: rgb(255, 90, 90) !important;
 }
 
 .octicon.octicon-people {
     fill: rgb(180, 180, 180) !important;
 }
 
+.octicon.octicon-broadcast {
+    fill: rgb(177, 66, 228) !important;
+}
+
+.octicon.octicon-verified, body > div.logged-in.env-production.page-responsive.page-profile.mine > div.application-main > main > div.container-xl.px-3.px-md-4.px-lg-5 > div > div.Layout-sidebar > div > div.js-profile-editable-replace > div.d-flex.flex-column > div.js-profile-editable-area.d-flex.flex-column.d-md-block > ul > li:nth-child(4) > svg > path {
+    fill: rgb(29, 161, 242) !important;
+}
+
+.octicon {
+    fill: white !important;
+}
+
 .octicon.octicon-person {
     fill: rgb(230, 230, 230) !important;
 }
 
-.octicon.octicon-comment-discussion {
+.octicon.octicon-comment-discussion, .octicon.octicon-browser, .octicon.octicon-accessibility {
     fill: rgb(88, 180, 255) !important;
 }
 
@@ -210,24 +251,37 @@ html body.logged-in.env-production.page-responsive.page-profile.mine div.logged-
     fill: rgb(63, 185, 80) !important;
 }
 
-.octicon.octicon-git-pull-request {
+.octicon.octicon-reply {
+    fill: rgb(92, 113, 153) !important;
+}
+
+.octicon.octicon-code, .octicon.octicon-key-asterisk {
+    fill: rgb(50, 255, 50) !important;
+}
+
+.octicon.octicon-git-pull-request, .octicon.octicon-clock, .octicon.octicon-webhook {
     fill: rgb(137, 87, 229) !important;
 }
 
-.octicon.octicon-shield {
+.octicon.octicon-shield, .octicon.octicon-shield-lock, .octicon.octicon-log {
     fill: rgb(221, 218, 19) !important;
 }
 
-.octicon.octicon-issue-opened {
+.octicon.octicon-issue-opened, .octicon.octicon-codespaces {
     fill: rgb(63, 185, 80) !important;
 }
 
-.octicon.octicon-code {
-    fill: rgb(255, 255, 255) !important;
+.octicon.octicon-copilot, .octicon.octicon-hubot {
+    fill: rgb(39, 228, 203) !important;
 }
 
 .octicon.octicon-graph {
     fill: rgb(255, 100, 100) !important;
+}
+
+body > div.logged-in.env-production.page-responsive.page-account > div.application-main > main > div > div.d-md-flex.flex-items-center.flex-justify-between.mt-1.mb-4 > div > div > div > p {
+    background: none !important;
+    border: none !important;
 }
 
 
